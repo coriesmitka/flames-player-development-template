@@ -14,12 +14,12 @@ This project is a data-driven analysis platform for NHL player development, with
 ---
 
 ## 📁 Folder Structure
-/data → Raw + normalized SQLite schemas & sample exports
-/scripts → ETL + API loaders, DB maintenance scripts
-└── api/ → NHL/PWHL API integration
-└── maintenance/→ Indexing, cleanup, data validation
-└── star_profiles/ → Spotlight & elite player enrichment
-/dashboard → Power BI .pbix files and screenshots
-/notebooks → Exploratory analysis (Jupyter or markdown)
-/docs → ERD, planning notes, schema reference
-/.github/workflows → GitHub Actions automation (optional CI/CD)
+`/data/` – Raw + normalized SQLite schemas & sample exports  
+- `/scripts/` – ETL + API loaders, DB maintenance scripts  
+  - `/scripts/api/` – NHL & PWHL API integration  
+  - `/scripts/maintenance/` – Indexing, cleanup, data validation  
+  - `/scripts/star_profiles/` – Spotlight & elite player enrichment  
+- `/dashboard/` – Power BI .pbix files and screenshots  
+- `/notebooks/` – Exploratory analysis (Jupyter or markdown)  
+- `/docs/` – ERD diagrams, planning notes, schema references  
+- `/.github/workflows/` – GitHub Actions automation (optional CI/CD)
