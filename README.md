@@ -20,6 +20,6 @@ This project is a data-driven analysis platform for NHL player development, with
   - `/scripts/maintenance/` – Indexing, cleanup, data validation  
   - `/scripts/star_profiles/` – Spotlight & elite player enrichment  
 - `/dashboard/` – Power BI .pbix files and screenshots  
-- `/notebooks/` – Exploratory analysis (Jupyter or markdown)  
+- `/notebooks/` – Exploratory analysis (Jupyter)  
 - `/docs/` – ERD diagrams, planning notes, schema references  
-- `/.github/workflows/` – GitHub Actions automation (optional CI/CD)
+- `/.github/workflows/` – GitHub Actions automation (CI/CD)
