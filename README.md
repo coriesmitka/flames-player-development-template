@@ -23,3 +23,20 @@ This project is a data-driven analysis platform for NHL player development, with
 - `/notebooks/` – Exploratory analysis (Jupyter)  
 - `/docs/` – ERD diagrams, planning notes, schema references  
 - `/.github/workflows/` – GitHub Actions automation (CI/CD)
+
+---
+
+## :clipboard: Project Status
+
+| Epic                            | Component                       | Status     | Notes                                                                 |
+|---------------------------------|----------------------------------|------------|-----------------------------------------------------------------------|
+| **Epic 1: NHL (Calgary Flames)** | API Ingestion                    | ✅ Complete | Scripts for Roster, Player, Game Logs, Faceoffs, Team Analytics done  |
+|                                 | Database Normalization           | ✅ Complete | `api_` vs `core_` structure live                                      |
+|                                 | Power BI Dashboard               | 🟡 In Progress | ODBC connection live; report building underway                    |
+|                                 | Historical Team Comparisons      | 🟡 In Progress | Stanley Cup team data collection scoped                            |
+| **Epic 2: PWHL (Women’s Hockey)** | API Discovery & Validation       | ✅ Complete | Endpoints and keys confirmed                                          |
+|                                 | Initial Data Ingestion           | 🟡 In Progress | Team stats and structure under testing                               |
+|                                 | Expansion Readiness              | ⏳ Planned   | League growing from 6 to 8 teams; structure to adapt in next phase   |
+|                                 | ML Preparation                   | ⏳ Planned   | Data harmonization and metadata strategy coming post-ingestion       |
+| **Epic 3: ML Comparison Models** | Player Dev Cross-League          | ⏳ Planned   | Waiting on full PWHL integration                                     |
+|                                 | Time-Series Growth Models        | ⏳ Planned   | Focus on growth trajectories (NHL vs. PWHL)                          |
